@@ -9,14 +9,15 @@
         "start": "node src/index.js",
         "lint": "eslint src/**/*.js --fix",
         "prettier": "prettier --write .",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "postinstall": "npm run prepare"
     },
     "keywords": [],
     "author": {
         "name": "lamlopez",
         "email": "monagasweb2020@gmail.com"
     },
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "eslint": "8.36.0",
         "eslint-config-prettier": "8.8.0",
